@@ -1,4 +1,5 @@
 ﻿using System;
+using RationalLib;
 
 namespace RationalConsoleApp
 {
@@ -6,7 +7,10 @@ namespace RationalConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Rational32 u = new Rational32(1, 2);
+            var w = new Rational32(0, 0);
+            Console.WriteLine(u);
+            Console.WriteLine(w);
         }
     }
 }
